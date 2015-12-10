@@ -17,7 +17,7 @@ public class Driver{
     }
     
     
-    /* //UNCOMMENT THIS WHEN YOU DO Volume
+     //UNCOMMENT THIS WHEN YOU DO Volume
     public static Volume makeRandomVolumeShape(){
 	String name = ""+letter()+"-3d";
 	double value = Math.round(Math.random()*10.0);
@@ -33,7 +33,7 @@ public class Driver{
 		return new Prism(value,value2,value3,name);
 	    }
 	}
-	}*/
+    }
     
 
     public static void main(String[]args){
@@ -50,7 +50,7 @@ public class Driver{
 	}
 	
 
-	/*//UNCOMMENT THIS WHEN YOU DO VOLUME
+	//UNCOMMENT THIS WHEN YOU DO VOLUME
 	Volume[] threes = new Volume[6];
 	for(int i = 0; i < threes.length; i++){
 	    threes[i]=makeRandomVolumeShape();
@@ -59,7 +59,7 @@ public class Driver{
 	for(Volume v : threes){
 	    System.out.println(v);
 	    System.out.println(v.getVolume());
-	    }*/
+	}
 	
     }
 }
