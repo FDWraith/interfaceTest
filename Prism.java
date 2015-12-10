@@ -3,7 +3,7 @@ public class Prism extends Rectangle{
     private double height;
 
     public Prism(double length, double width, double height, String name){
-	super(lenght,width,name);
+	super(length,width,name);
 	this.height = height;
     }
 
@@ -12,6 +12,6 @@ public class Prism extends Rectangle{
     }
 
     public String toString(){
-	return "FIXME!";
+	return "Prism "+getName()+" with a length of "+getLength()+ ", a width of "+getWidth()+ " and a height of "+getHeight();
     }
 }
